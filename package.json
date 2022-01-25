@@ -1,0 +1,23 @@
+{
+  "name": "a01-assignment",
+  "version": "1.0.0",
+  "description": "Simple web app for assignment a01",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a01-largeweb.git"
+  },
+  "author": "Matthew Gordon",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a01-largeweb/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a01-largeweb#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
