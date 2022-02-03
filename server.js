@@ -41,7 +41,7 @@ fs.readFile("./www/index.html", "utf8", (err,data) => {
 // Start the `server` const listening on the port defined by argument in your `port` const.
     server.listen(port, () => {
 // Put the exact message `Server listening on port ${port}` on the console log.
-        console.log(`Server is running on port: ${port}`);
+        console.log(`Server listening on port: ${port}`);
     })
 })
 
